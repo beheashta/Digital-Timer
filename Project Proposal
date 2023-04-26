@@ -1,0 +1,25 @@
+Group Project Proposal - Digital Construct 
+Course Code: CP-319
+
+Topic: Digital timer
+
+Introduction: 
+The digital system that our group has chosen is a digital timer. The device will measure intervals of time in seconds and display the interval on a digital seven segment display. The system will take 2 inputs; one that specifies the interval to be counted down to, and a switch that begins the countdown. 
+
+Potential Applications:	
+Timers have a wide range of uses in any task that require dealing with accurate measurements of time. Some potential applications involving digital timers include:
+Alarm Clocks
+Microwaves
+CPUs
+etc.
+
+
+The design for our Digital Timer consists of 6 bits for the input, two 7 segment displays for the output, along with decoders and counters for processing between the input and output. The input X accepts a number from 0-60, and when the start push button switch is triggered our circuit follows the path seen in the above flowchart. On startup input X is set as our count number from which the countdown will start. The count is displayed on the 7 segment display, and decreased by 1 as each second goes by until it reaches 0 at which point it stops.
+
+
+Digital logic components:
+Power Supply (Battery) 
+Seven segment display(s)
+Push button switch
+Decoder
+Counter
