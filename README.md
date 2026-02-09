@@ -6,7 +6,7 @@
 This project implements a digital timer that counts down from a user-defined value (0–60 seconds) and displays the remaining time on a two-digit seven-segment display.  
 The system is driven by a clock signal and controlled using explicit start, pause, and reset inputs.
 
-The project was completed as part of a digital systems design course and emphasizes **deterministic behavior, explicit state transitions, and timing correctness** — principles that continue to inform how I approach backend and production systems today.
+The project was completed as part of a digital systems design course and emphasizes **deterministic behavior, explicit state transitions, and timing correctness** 
 
 ## System behavior
 At a high level, the timer operates as follows:
